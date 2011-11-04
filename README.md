@@ -1,20 +1,10 @@
-the HTML Turing Machine Language (HTML) is a programming language embedded in HTML.
+the __HTML Turing Machine Language (HTML)__ is a programming language embedded in HTML.
 
 This is the reference implementation of HTML.
 
-All inputs to this implementation of HTML are HTML.
-All outputs of this implementation of HTML are HTML.
-
-<a href><a> is an HTML function call. You can find where any function is defined by clicking the link.
-  
-This language provides two special links:
-
-the "eval" link. This brings you one step forward in the computation, analogous to "Forward".
-
-The "lave" link. This brings you one step backward in the computation, analogous to "Back".
-
-You will be Redirected back to the current page if you eval HTML with erroneous syntax.
-
- 
- 
-
+* The output of every HTML program is HTML.
+* A _div_ is an HTML function definition.
+* A _link_ is an HTML function call. You may navigate to a function's definition by clicking it's call.
+* A special link called _eval_ will bring you forward one step in the computation. 
+* To step forwards and backwards in the computation, hit your Forward or Back button.
+* You will be redirected to the current page if you eval HTML with erroneous syntax.
