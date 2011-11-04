@@ -1,4 +1,4 @@
-the __HTML Turing Machine Language (HTML)__ is a programming language embedded in HTML.
+the __HTML Turing Machine Language (HTML)__ is a programming language and IDE embedded in HTML.
 
 This is the reference implementation of HTML.
 
