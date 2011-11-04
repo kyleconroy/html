@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'nokogiri'
+require 'lib/evaluator'
 
 set :port, 4865 # HTML
 
@@ -16,9 +17,6 @@ end
 
 post '/' do
   puts params.inspect
-  @text = params[:text]
-  debugger
-  result = Nokogiri.parse(@text)
-  
-  erb :blank
+  @text = Evaluator.new(params[:text]).e
+  erb :template
 end
