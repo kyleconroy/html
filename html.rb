@@ -2,6 +2,8 @@ require 'rubygems'
 require 'sinatra'
 require 'nokogiri'
 
+set :port, 4865 # HTML
+
 helpers do
   include Rack::Utils
   alias_method :h, :escape_html
